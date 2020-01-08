@@ -6,7 +6,7 @@ RNN-based model for weather prediction in cities using GRU network and crowd-sou
 
 Get weather data from your chosen city as well as four other nearby cities, in my case I chose Ho Chi Minh city, Hanoi, Danang, Haiphong, and Can tho. Then, parse the data into the correct format to be read as inputs (Parse function in hochiminh weather.ipynb). Use meteoblue.com for 2 week periods for free.
 
-![Image description](Format)
+![Image description](Format.png)
 
 ### Prerequisites
 
@@ -24,13 +24,13 @@ Keras
 
 Change the name of the target_city variable to the city you want to forecast. Then change the shift_days to the number of days that you want predict the weather by.
 
-![Image description](Target)
+![Image description](Target.png)
 
 ### To see how accurate the model is, run the code to see comparisons between training and test files.
 
-![Image description](graph1)
-![Image description](graph2)
-![Image description](graph3)
+![Image description](graph1.png)
+![Image description](graph2.png)
+![Image description](graph3.png)
 
 ## Additional
 
