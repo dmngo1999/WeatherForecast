@@ -1,60 +1,35 @@
 # WeatherForecast
 
- RNN-based model for weather prediction in cities using GRU network and crowd-sourced data
+RNN-based model for weather prediction in cities using GRU network and crowd-sourced data
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Get weather data from your chosen city as well as four other nearby cities, in my case I chose Ho Chi Minh city, Hanoi, Danang, Haiphong, and Can tho. Then, parse the data into the correct format to be read as inputs (Parse function in hochiminh weather.ipynb). Use meteoblue.com for 2 week periods for free.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+matplotlib.pyplot
+tensorflow
+numpy
+pandas
+os
+MinMaxScaler from sklearn
+Keras
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Change the name of the target_city variable to the city you want to forecast. Then change the shift_days to the number of days that you want predict the weather by.
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+### To see how accurate the model is, run the code to see comparisons between training and test files.
 
-```
-Give an example
-```
 
-### And coding style tests
 
-Explain what these tests test and why
+## Additional
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+You can play around with the model by changing the activation function, adding more layers, different inputs, etc...
 
 ## Built With
 
