@@ -4,7 +4,7 @@ RNN-based model for weather prediction in cities using GRU network and crowd-sou
 
 ## Getting Started
 
-Get weather data from your chosen city as well as four other nearby cities, in my case I chose Ho Chi Minh city, Hanoi, Danang, Haiphong, and Can tho. Then, parse the data into the correct format to be read as inputs (Parse function in hochiminh weather.ipynb). Use meteoblue.com for 2 week periods for free.
+Get weather data from your chosen city as well as four other nearby cities, in my case I chose Ho Chi Minh city, Hanoi, Danang, Haiphong, and Can tho. Then, parse the data into the correct format to be read as inputs (Parse function in hochiminh weather.ipynb). Use meteoblue.com for free weather report of 2 week periods.
 
 ![Image description](Format.png)
 
