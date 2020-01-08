@@ -40,7 +40,7 @@ You can play around with the model by changing the initializer, activation funct
 
 ## Authors
 
-* **DucMinh Ngo** - *Initial work* - [PurpleBooth](https://github.com/dmngo1999)
+* **DucMinh Ngo**
 
 
 ## Acknowledgments
