@@ -34,7 +34,9 @@ Change the name of the target_city variable to the city you want to forecast. Th
 
 ## Additional
 
-You can play around with the model by changing the activation function, adding more layers, different inputs, etc...
+You can play around with the model by changing the initializer, activation function, adding more layers, etc...
+
+![Image description](model.png)
 
 ## Authors
 
